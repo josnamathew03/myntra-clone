@@ -1,0 +1,389 @@
+@font-face {
+    font-family: 'regular';
+    src: url(assets/Assistant-Regular.woff);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(assets/Assistant-Bold.woff);
+}
+
+:root {}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+body,
+p,
+ul,
+li,
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+p,
+a,
+li,
+span,
+select,
+ul,
+button,
+div {
+
+    /* font-family: "regular"; */
+    font-family: "regular";
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "bold";
+    font-weight: normal !important;
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* -------------------------------------------------- */
+.header-wrap {
+    padding-bottom: 25px;
+}
+
+header {
+    position: fixed;
+    color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    z-index: 10;
+    background-color: #fff;
+
+}
+
+header .logo-wrap {
+    float: left;
+    margin-left: 4%;
+    line-height: 80px;
+
+
+}
+
+.logo-wrap a {
+    width: 53px;
+    height: 36px;
+    background-position: -462px 0px;
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .navbar {
+    display: block;
+    float: left;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 0 0 1%;
+}
+
+.navbar .nav-wrap {
+    float: left;
+    border: hidden;
+    text-align: center;
+    display: inline;
+}
+
+.navbar a {
+    padding: 0 17px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    border-bottom: none;
+    -webkit-transition: left .2s ease-out, width .2s ease-out;
+    transition: left .2s ease-out, width .2s ease-out;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    font-family: 'bold';
+
+}
+
+.nav-wrap .new-span {
+    margin: 0 0 34px -16px;
+
+    font-size: 10px;
+    font-family: 'bold';
+    /* font-weight: 600; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff3f6c;
+    content: "new";
+    display: inline;
+    position: relative;
+    content: 'new';
+    top: -5.8px;
+    line-height: 1;
+    vertical-align: baseline;
+    text-transform: uppercase;
+
+}
+
+header .actions {
+    margin-right: 0 !important;
+    float: right;
+    display: flex;
+    line-height: 0;
+    height: 40px;
+    margin: 20px 30px 0 10px;
+}
+
+.actions .user {
+    position: relative;
+    height: 60px;
+    margin: 0 20px 0 15px;
+}
+
+.user .user-wrap {
+    padding: 0 12px 0 17px;
+    position: relative;
+    display: flex;
+    height: 40px;
+}
+
+
+.user .icon-user {
+    margin: 10px 0 0;
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: -298px -56px;
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+}
+
+
+
+.actions .user-title {
+    color: #000;
+    position: absolute;
+    bottom: 4px;
+    left: 1px;
+    font-size: 12px;
+    /* font-weight: 700; */
+    display: inline-block;
+    padding-top: 10px;
+    font-family: 'bold';
+    line-height: 6px;
+}
+
+.wishlist {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    margin: 0 55px 0 10px;
+}
+
+.wishlist .icon-wishlist {
+    left: 13px;
+    margin: 8px 0 0;
+    position: absolute;
+    bottom: 14px;
+    width: 17px;
+    height: 22px;
+    background-position: -315px -187px;
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+}
+
+.bag {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    margin: 0 50px 0 15px;
+}
+
+.bag .icon-bag {
+    margin: 8px 0 0;
+    position: absolute;
+    bottom: 14px;
+    left: -1px;
+    width: 22px;
+    height: 22px;
+    background-position: -341px -56px;
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+}
+
+.query {
+    width: 320px;
+    margin-right: 8px !important;
+    float: right;
+    line-height: 0;
+    position: relative;
+    margin: 20px 20px 20px 40px;
+}
+
+.query .search-bar {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    font-family: 'regular';
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    line-height: 24px;
+    background: #f5f5f6;
+    width: 95%;
+}
+
+
+
+.query .search-icon-wrap {
+    box-sizing: content-box;
+    display: inline-block;
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    position: absolute;
+    left: -41px;
+}
+
+.search-icon-wrap .search-icon {
+    transform: scale(.7);
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-position: -754px 0;
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+}
+
+/* -------------------------------------------------------------------- */
+.root {
+    min-height: 750px;
+    margin-top: -2px;
+}
+
+main.search-base {
+    margin: 58px auto 0;
+    max-width: 1600px;
+    display: block;
+}
+
+.search-base ul {
+    padding-left: 0;
+}
+
+.row-base {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.bread-crumbs {
+    vertical-align: top;
+    padding: 20px 0 3.4px;
+    display: block;
+}
+
+.bread-crumbs ul {
+    font-size: 14px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0 0 25px;
+    vertical-align: top;
+}
+
+.bread-crumbs ul li {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.bread-crumbs ul li a {
+    text-decoration: none;
+    color: #282c3f;
+    text-transform: capitalize;
+}
+
+.bread-crumbs ul li a::after {
+    font-size: 14px;
+    content: "/";
+    margin-left: 2.2px;
+    color: #282c3f;
+}
+
+/* --------------------------------------------------------------------------------- */
+.row-base .title-container {
+    margin: 10px 0 5px 25px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    overflow: hidden;
+
+
+}
+.title-container h1{
+        text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #282c3f;
+    max-width: 400px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 16px;
+}
+.title-container .title-count{
+        display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
