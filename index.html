@@ -7,6 +7,8 @@
     <title>Myntra</title>
     <link rel="stylesheet" href="styleHeader.css">
     <link rel="stylesheet" href="styleSidebar.css">
+    <link rel="stylesheet" href="styleBody.css">
+
 
 </head>
 
@@ -18,7 +20,10 @@
             </div>
             <div class="navbar">
                 <div class="nav-wrap">
-                    <a href="">Men</a>
+                    <div class="last-wrap">
+                        <a href="">Men</a>
+
+                    </div>
 
                 </div>
                 <div class="nav-wrap">
@@ -108,7 +113,7 @@
                 </div>
 
             </div>
-            <div class="row-base">
+            <div class="row-base men-t">
                 <div class="title-container">
                     <h1>Men T-shirts</h1>
                     <span class="title-count"> - 234944
@@ -124,27 +129,859 @@
                             <span>FILTERS</span>
 
                         </div>
-                        <div class="wraps">
-                            <span class="filter-head">Categories</span>
+                        <div class="cat-container ver-filters">
+                            <span class="ver-filter-head">Categories</span>
                             <ul>
                                 <li>
-                                    <label for="">
+                                    <label for="" class="com-cus-check">
                                         <input type="checkbox">Tshirts
-                                        <span class="num">(233710)</span>
+                                        <span class="cat-num">(233710)</span>
+                                        <div class="com-check-indi"></div>
                                     </label>
                                 </li>
-                                 <li>
-                                    <label for="">
+                                <li class="no-pad">
+                                    <label for="" class="com-cus-check">
                                         <input type="checkbox">Lounge Tshirts
-                                        <span class="num">(1228)</span>
+                                        <span class="cat-num">(1228)</span>
+                                        <div class="com-check-indi"></div>
                                     </label>
                                 </li>
-                     
+
                             </ul>
 
                         </div>
+                        <div class="ver-filters brand-con">
+                            <span class="ver-filter-head">brand</span>
+                            <div class="fil-search">
+                                <input type="text" class="fil-search-input">
+                                <span class="fil-search-icon"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">WOOSTRO
+                                        <span class="brand-num">(11616)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">Greylongg
+                                        <span class="brand-num">(6491)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">Roadster
+                                        <span class="brand-num">(5965)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">HRX by Hrithik Roshan
+                                        <span class="brand-num">(4309)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">Friskers
+                                        <span class="brand-num">(3233)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">U.S. Polo Assn.
+                                        <span class="brand-num">(3198)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">Tommy Hilfiger
+                                        <span class="brand-num">(3155)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-check">
+                                        <input type="checkbox">FABSTIEVE
+                                        <span class="brand-num">(2989)</span>
+                                        <div class="com-check-indi"></div>
+                                    </label>
+                                </li>
+                            </ul>
+                            <div class="brand-more">
+                                + 1282 more
+                            </div>
+
+                        </div>
+
+                        <div class="ver-filters">
+                            <span class="ver-filter-head no-pad">Price</span>
+                            <div class="slide-con">
+                                <div class="slider-root" style="width: 200px;">
+                                    <div class="root-rail">
+                                        <div class="root-rail-bar">
+
+                                        </div>
+                                        <div class="root-rail-range" style="left: 0; right: 0;"></div>
+                                        <div class="slider-thumb-left" style="left: 0px;">
+                                            <div class="slider-thumb-dot"></div>
+                                        </div>
+                                        <div class="slider-thumb-right" style="left: 200px;">
+                                            <div class="slider-thumb-dot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-dot-con">
+                                        ₹100 - ₹10,100+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="ver-filters">
+                            <span class="ver-filter-head">Color</span>
+                            <div class="fil-search">
+                                <input type="text" class="fil-search-input">
+                                <span class="fil-search-icon"></span>
+                            </div>
+                            <ul>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(54, 69, 79);"></span>
+                                        Black
+                                        <span class="color-num">(40104)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(255, 2555, 255);"></span>
+                                        White
+                                        <span class="color-num">(28127)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(0, 116, 217);"></span>
+                                        Blue
+                                        <span class="color-num">(25580)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(97, 177, 96);"></span>
+                                        Green
+                                        <span class="color-num">(16938)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(60, 68, 119);"></span>
+                                        Navy Blue
+                                        <span class="color-num">(16833)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(159, 168, 171);"></span>
+                                        Grey
+                                        <span class="color-num">(14532)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="color-list-item">
+                                    <label for="" class="com-cus-check">
+                                        <span class="color-display color-label"
+                                            style="background-color: rgb(211, 75, 86);"></span>
+                                        Red
+                                        <span class="color-num">(10928)</span>
+                                        <input type="checkbox">
+                                        <div class="com-check-indi">
+
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+                            <div class="color-more">
+                                <span>+ 45 more</span>
+                            </div>
+                        </div>
+                        <div class="ver-filters">
+                            <span class="ver-filter-head">Discount Range</span>
+                            <ul>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        10% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        20% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        30% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        40% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        50% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        60% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        70% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        80% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="" class="com-cus-radio">
+                                        <input type="radio" class="discount-input">
+                                        90% and above
+                                        <div class="com-radio-ind"></div>
+                                    </label>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
 
+                </div>
+
+                <div class="search-right-con" style="flex: 1 1 0%;">
+                    <div class="row-base" style="display: flex;">
+                        <section class="base-filters">
+                            <div>
+                                <div class="base-left-con">
+                                    <div class="sort-by">
+                                        Sort by :
+                                        <span>Recommended</span>
+                                        <span class="sort-down-arrow"></span>
+                                    </div>
+
+                                </div>
+                                <div class="atsa-base">
+                                    <ul class="atsa-filters">
+
+                                        <li>
+                                            <label for="">
+                                                <h4 class="atsa-title">Bundles</h4>
+                                                <span class="atsa-down-arrow"></span>
+                                            </label>
+                                        </li>
+
+                                        <li>
+                                            <label for="">
+                                                <h4 class="atsa-title">Country of Origin</h4>
+                                                <span class="atsa-down-arrow"></span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label for="">
+                                                <h4 class="atsa-title">Size</h4>
+                                                <span class="atsa-down-arrow"></span>
+                                            </label>
+                                        </li>
+                                        <li></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row-base search-pro-con" style="display: flex;">
+                        <section style="width: 100%;">
+                            <ul class="results-base">
+                                <li class="product-base one">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/8dIS5bxO_9fbbd64a9c4b4665966e493b9ae42343.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polo Collar Applique T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 999
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2499
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="product-base two">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/JqkiXT7y_9035c13103244692b5abfb11d2fa5da2.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polo Collar Applique T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 919
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2299
+                                                    </span>
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+
+                                            </div>
+                                            <!-- <div class="tag">
+                                                Only Few Left!
+                                            </div> -->
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="product-base three">
+                                    <div class="product-thumb"></div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/31598708/2025/4/2/6ac6f272-9993-4a96-a66a-5002fc97779f1743591756031-Mens-Causal-Tshirt-7231743591755542-1.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Flying Machine</h3>
+                                            <h4 class="product-pro">Unisex Pure Cotton T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 1007
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 1599
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(37% OFF)</span>
+
+                                            </div>
+                                            <!-- <div class="tag">
+                                                Only Few Left!
+                                            </div> -->
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="product-base four">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-ratings-con">
+                                        <span>4.3</span>
+                                        <span class="star-icon"></span>
+                                        <div class="pro-ratings-count">
+                                            <div class="product-seperator">|</div>
+                                            3.1k
+                                        </div>
+                                    </div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12027436/2022/9/15/ea90445c-a37b-43ac-948b-8e291ec78dc31663221311972LevisMenWhiteSolidRoundNeckLoungeT-shirt1.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Levis</h3>
+                                            <h4 class="product-pro">Solid Lounge T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 376
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 649
+                                                    </span>
+                                                </span>
+                                                <span class="product-dis-per">(42% OFF)</span>
+
+                                            </div>
+                                            <!-- <div class="tag">
+                                                Only Few Left!
+                                            </div> -->
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="product-base five">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src=" https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/A8sqz9m5_4996c24976d949b7a8f691d23484c1be.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polo Collar Applique T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 959
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2399
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                <li class="product-base six">
+                                    <div class="product-thumb"></div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/14/CkL9k11H_3186223923454fa994d5cc4e8111072f.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Lux Cozi</h3>
+                                            <h4 class="product-pro">Men Solid Cotton T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 959
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2399
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <!-- <div class="tag">
+                                                Only Few Left!
+                                            </div> -->
+                                        </div>
+
+                                    </a>
+
+                                </li>
+                                <li class="product-base seven">
+                                    <div class="product-thumb"></div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/34149983/2025/5/26/ce3edbf1-af76-4835-b48d-ab21144d21311748262109947-ADIDAS-Men-Tshirts-331748262109500-1.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">ADIDAS</h3>
+                                            <h4 class="product-pro">Men Solid Cotton T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 649
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 999
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(35% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+                                <li class="product-base eight">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/tbyFqQH4_9a0b8330f46644308dab62f0759e403f.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polka Dot Polo Collar Pockets T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 959
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2399
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+                                <li class="product-base nine">
+                                    <div class="product-thumb"></div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12504566/2021/2/15/061da36d-d662-4fe6-9b1d-5b7377e785f11613373061587-Roadster-Men-Tshirts-3551613373060033-1.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Roadster</h3>
+                                            <h4 class="product-pro">Colourblocked Round Neck Pure Cotton T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 339
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 999
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(66% OFF)</span>
+
+                                            </div>
+                                            <!-- <div class="tag">
+                                                Only Few Left!
+                                            </div> -->
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                                 <li class="product-base ten">
+                                    <div class="product-thumb"></div>
+                                    <!-- <div class="product-watermark">AD</div> -->
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/U1VKx188_bfa0516a02c74fa78b48a839fbb775f8.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Roadster</h3>
+                                            <h4 class="product-pro">Men Polo Collar Pockets T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 919
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2299
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+
+                                <li class="product-base twelve">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/8dIS5bxO_9fbbd64a9c4b4665966e493b9ae42343.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polo Collar Applique T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 999
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2499
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+
+                               
+                                <li class="product-base twelve">
+                                    <div class="product-thumb"></div>
+                                    <div class="product-watermark">AD</div>
+                                    <a href="" style="display: block;">
+                                        <div class="pro-image-con">
+                                            <div style="display: block;">
+                                                <div style="background: rgb(229, 241, 255);">
+                                                    <div style="height: 280px; width: 100%;">
+
+                                                        <img draggable="false"
+                                                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/18/8dIS5bxO_9fbbd64a9c4b4665966e493b9ae42343.jpg"
+                                                            class="img-responsive" style="width: 100%; display: block;">
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-brand">Richlook</h3>
+                                            <h4 class="product-pro">Men Polo Collar Applique T-shirt</h4>
+                                            <div class="product-price">
+                                                <span>
+                                                    <span class="product-dis-price">
+                                                        Rs. 999
+                                                    </span>
+                                                    <span class="product-strike">
+                                                        Rs. 2499
+                                                    </span>
+
+                                                </span>
+                                                <span class="product-dis-per">(60% OFF)</span>
+
+                                            </div>
+                                            <div class="tag">
+                                                Only Few Left!
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
                 </div>
             </div>
 
