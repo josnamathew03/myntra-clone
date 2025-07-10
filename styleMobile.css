@@ -1,0 +1,251 @@
+@media screen and (max-width: 1020px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    /* ------------------------------------------------- */
+
+    .layout {
+        position: relative;
+    }
+
+    .nav-container-m {
+        font-size: 0;
+        background-color: #fff;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        box-shadow: 0 1px 2px 0 rgba(148, 150, 159, .3);
+    }
+
+    .nav-icon-m {
+        display: inline-block;
+    }
+
+    .nav-container-m .menu-icon {
+        margin-left: 16px !important;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .nav-container-m .header-icon-m {
+        width: 24px;
+        height: 24px;
+        margin: 16px 16px 16px 0;
+        display: inline-block;
+    }
+
+    svg:not(:root) {
+        overflow: hidden;
+    }
+
+    .nav-container-m .myntra-icon-m {
+        margin-left: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .header-title-m {
+        font-size: 16px;
+        vertical-align: top;
+
+        position: relative;
+        font-weight: 700;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        width: calc(100% - 260px);
+        text-transform: capitalize;
+        color: rgb(66, 69, 83);
+    }
+
+    .heading-m {
+        font-family: 'bold';
+        font-weight: normal;
+
+    }
+
+    .sub-heading-m {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .header-actions-m {
+        display: inline-block;
+    }
+
+    .header-actions-m .add-m {
+        position: relative;
+        top: 1px;
+        vertical-align: top;
+        height: 22px;
+        margin: 17px 16px 16px 0;
+    }
+
+    /* ------------------------------------------------------------------------ */
+
+    .page-con-m {
+        min-height: calc(100vh - 50px);
+    }
+
+    .results {
+        margin: 0;
+    }
+
+    .banner-text-table {
+        display: table;
+        padding: 12px 6px;
+        background-image: linear-gradient(90deg, #bd6da6, #d799cb);
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .banner-text-item {
+        font-size: 12px;
+        display: table-cell;
+        text-align: center;
+        color: #fff;
+    }
+
+    .banner-text-item:last-child {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .banner-text-item:first-child {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .banner-text-bold {
+        font-family: 'bold';
+        line-height: 17.1429px;
+    }
+
+    /* ----------------------------------------------------------------- */
+    .search-results-m {
+        margin: 0;
+    }
+
+    .list-m {
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .search-results-m .item-border-right {
+        border-right: .5px solid #d4d5d9;
+    }
+
+    .search-results-m .top-border {
+        border-top: 1px solid #d4d5d9;
+    }
+
+    .search-results-m .item-m {
+        border-bottom: .5px solid #d4d5d9;
+        float: left;
+        width: 50%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .search-product-m {
+        position: relative;
+        text-align: center;
+    }
+
+    .ripple-con {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .search-product-m .lazy-load {
+        width: auto !important;
+        position: relative;
+    }
+
+    .ratings-con-m {
+        position: absolute;
+        height: 18px;
+        margin: -28px 0 0 11px;
+        border: 1px solid #eaeaec;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 5px;
+        border-radius: 9px;
+        width: auto;
+    }
+
+    .rating-text-m {
+        font-size: 10px;
+        font-family: 'bold';
+        line-height: 14.2857px;
+
+    }
+
+    .icon-star-m {
+        font-size: 9px;
+        padding: 3px;
+    }
+
+    .excellent,
+    .good {
+        background-size: cover;
+        position: relative;
+        margin: 0 6px 0 4px;
+    }
+
+    .excellent {
+        background-image: url(https://constant.myntassets.com/pwa/assets/img/2bce8a2b-e1d5-465a-8980-62f3d778377c1548353615799-Fill-90-Copy-7.png);
+
+    }
+
+    .rating-count-m {
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: 5px;
+        line-height: 14.2857px;
+    }
+
+    .pla-container {
+
+        position: absolute;
+        background-color: #a9abb3;
+        border-radius: 2px;
+        top: 8px;
+        right: 10px;
+        padding: 0 2px;
+        font-size: 10px;
+        color: #fff;
+        /* z-index: 1; */
+    }
+    .content-wrap-m{
+        position: relative;
+    }
+    .search-product-m .price-wrap-m{
+        padding: 8px 0;
+    }
+    .text-sm{
+        font-size: 12px;
+    }
+
+}
