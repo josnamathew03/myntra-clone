@@ -66,6 +66,10 @@ li {
 
 
 /* -------------------------------------------------- */
+.mobile{
+    display: none;
+}
+
 .header-wrap {
     padding-bottom: 25px;
 }
