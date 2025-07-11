@@ -7,6 +7,14 @@
     font-family: 'bold';
     src: url(assets/Assistant-Bold.woff);
 }
+@font-face {
+    font-family: 'foot1';
+    src: url(assets/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+}
+@font-face {
+    font-family: 'foot2';
+    src: url(assets/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
 
 :root {}
 
