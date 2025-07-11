@@ -13,7 +13,7 @@
 
 
 .index-con {
-    padding: 20px 0 60px;
+    padding: 20.35px 0 60px;
     color: #535766;
     width: 100%;
     text-align: justify;
@@ -40,24 +40,31 @@
 
 }
 
-.index-price-con table {
+.index-price-con table{
     border-collapse: collapse;
 }
+.index-price-con th{
+    font-family: 'bold';
+    font-weight: normal;
+}
+
 
 .index-price-con th,
 .index-price-con td {
     text-align: left;
     padding: 8px;
+    box-sizing: content-box;
 }
 
-/* .index-price-con:last-child{
-    white-space: nowrap;
-} */
+.index-price-con td:last-child{
+    white-space: nowrap;                                     
+}
 .index-date-title {
+    font-family: 'bold';
 
     font-style: italic;
     padding: 10px 0 0 6px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .index-desc-con {
@@ -170,7 +177,7 @@ p {
     font-size: 12px;
     margin-bottom: 10px;
     /* font-weight: 700; */
-    margin-top: 25px;
+    margin-top: 24.5px;
     font-family: 'bold';
 
 }
@@ -214,7 +221,7 @@ p {
 }
 .pop-search-title{
     position: absolute;
-    margin-top: -15px;
+    margin-top: -14px;
     background: #fafbfc;
     padding-right: 10px;
     color: #282c3f;
@@ -231,9 +238,13 @@ p {
     font-size: 15px;
     line-height: 25px;
 }
+.last-a::after{
+    content: "" !important;
+
+}
 .pop-search-links>a::after{
     content: '|';
-    margin-left: 3px;
+    margin-left: 3.2px;
 }
 
 /* ---------------------------------------------------------------- */
