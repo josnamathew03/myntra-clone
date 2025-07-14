@@ -50,7 +50,7 @@
 }
 
 .color-con {
-    padding-bottom: 15px !important;
+    padding-bottom: 15.1px !important;
 }
 
 .atsa-filters {
@@ -122,8 +122,9 @@
     box-sizing: border-box;
     margin: 0 10px 30px;
 }
-.res-lil-dummy{
-        width: 210px;
+
+.res-lil-dummy {
+    width: 210px;
     text-align: left;
     position: relative;
     vertical-align: top;
@@ -295,7 +296,7 @@
     padding-bottom: 59.5px;
     color: #282c3f;
     margin: 16px 0 66px;
-    font-size:0 ;
+    font-size: 0;
 }
 
 .disabled {
@@ -375,7 +376,7 @@
     color: #535766;
     font-size: 14px;
     margin-top: 6px;
-    margin-right: 10px;
+    margin-right: 10px !important;
     font-weight: 400;
 }
 
@@ -425,10 +426,10 @@
 
 .free-ship-banner-content {
     box-sizing: content-box;
-    
+
     transform: rotate(-180deg);
     width: 36px;
-    padding: 4px;
+    padding: 4px 5px 4px 4px;
     height: 200px;
     vertical-align: middle;
     text-align: center;
