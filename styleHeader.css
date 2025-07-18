@@ -332,7 +332,7 @@ main.search-base {
     padding-left: 0;
 }
 
-.row-base {
+.wrap-base {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -343,13 +343,13 @@ main.search-base {
 .men-t{
     height: 36.197px;
 }
-.bread-crumbs {
+.first-row {
     vertical-align: top;
     padding: 20px 0 3.4px;
     display: block;
 }
 
-.bread-crumbs ul {
+.first-row ul {
     font-size: 14px;
     overflow: hidden;
     display: inline-block;
@@ -358,7 +358,7 @@ main.search-base {
     padding-left: 0;
 }
 
-.bread-crumbs ul li {
+.first-row ul li {
     font-size: 14px;
     display: inline-block;
     float: left;
@@ -367,13 +367,13 @@ main.search-base {
     line-height: 1;
 }
 
-.bread-crumbs ul li a {
+.first-row ul li a {
     text-decoration: none;
     color: #282c3f;
     text-transform: capitalize;
 }
 
-.bread-crumbs ul li a::after {
+.first-row ul li a::after {
     font-size: 14px;
     content: "/";
     margin-left: 2.2px;
@@ -381,7 +381,7 @@ main.search-base {
 }
 
 /* --------------------------------------------------------------------------------- */
-.row-base .title-container {
+.wrap-base .title-container {
     margin: 6px 0 3px 25px;
     display: flex;
     align-items: center;

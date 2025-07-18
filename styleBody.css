@@ -401,7 +401,7 @@
 
 /* ---------------------------------------------------------------- */
 
-.free-ship-banner {
+.side-off{
     position: fixed;
     bottom: 130px;
     width: 44px;
@@ -415,7 +415,7 @@
     box-sizing: content-box;
 }
 
-.free-ship-banner-arrow {
+.side-off-arrow {
     border-right: 14px solid #fff;
     width: 0;
     height: 0;
@@ -424,7 +424,7 @@
     border-bottom: 12px solid transparent;
 }
 
-.free-ship-banner-content {
+.side-off-content {
     box-sizing: content-box;
 
     transform: rotate(-180deg);
@@ -441,4 +441,8 @@
     color: #fcfcfc;
     display: inline-block;
     writing-mode: vertical-rl;
+}
+.side-off span{
+    font-size: 24px;
+
 }

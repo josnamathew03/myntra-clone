@@ -17,6 +17,16 @@
   }
 }
 
+@media screen and (min-width: 1366px) {
+  .query {
+    width: 400px !important;
+        width: 400px;
+    float: right;
+    line-height: 0;
+    position: relative;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
     * {
